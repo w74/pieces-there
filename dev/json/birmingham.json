@@ -1,0 +1,82 @@
+{
+	"items": [
+		{
+			"id": 365,
+			"image": "./img/000365.png",
+			"price": 7,
+			"desc": "Moonshine hot sauce",
+			"loc": "Fairhope Favorites"
+		},
+		{
+			"id": 862451,
+			"image": "./img/862451.png",
+			"price": 9,
+			"desc": "Sweet home alabama mug",
+			"loc": "Todd's Pawn Shop"
+		},
+		{
+			"id": 493562,
+			"image": "./img/493562.png",
+			"price": 11,
+			"desc": "Jeni's assorted macarons",
+			"loc": "Jeni's Bakery"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World"
+		},
+		{
+			"id": 2501,
+			"image": "./img/002501.png",
+			"price": 12,
+			"desc": "Hand-lettered moleskine",
+			"loc": "Dave's Refinery"
+		},
+		{
+			"id": 626262,
+			"image": "./img/626262.png",
+			"price": 62,
+			"desc": "Argoflex vintage camera",
+			"loc": "Class Cam Co."
+		},
+		{
+			"id": 15230,
+			"image": "./img/015230.png",
+			"price": 34,
+			"desc": "Timex Birmingham Edition",
+			"loc": "Clocksworth Timery"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World"
+		}
+	]
+}

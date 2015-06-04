@@ -1,0 +1,94 @@
+{
+	"items": [
+		{
+			"id": 112356,
+			"image": "./img/112356.png",
+			"price": 14,
+			"desc": "Bay area columbian",
+			"loc": "Los Angeles, CA",
+			"link": "#"
+		},
+		{
+			"id": 224488,
+			"image": "./img/224488.png",
+			"price": 25,
+			"desc": "Vintage brass tie clip",
+			"loc": "Chicago, IL",
+			"link": "#"
+		},
+		{
+			"id": 303032,
+			"image": "./img/303032.png",
+			"price": 16,
+			"desc": "Crispy street-style churros",
+			"loc": "San Diego, CA",
+			"link": "#"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World",
+			"link": "#"
+		},
+		{
+			"id": 205144,
+			"image": "./img/205144.png",
+			"price": 11,
+			"desc": "Mustard pastrami sandwich",
+			"loc": "Richmond, VA",
+			"link": "#"
+		},
+		{
+			"id": 601234,
+			"image": "./img/601234.png",
+			"price": 3,
+			"desc": "Vintage grunge postcard",
+			"loc": "West Village, NY",
+			"link": "#"
+		},
+		{
+			"id": 118951,
+			"image": "./img/118951.png",
+			"price": 32,
+			"desc": "Handmade skeleton keys",
+			"loc": "Madison, WI",
+			"link": "#"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World",
+			"link": "#"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World",
+			"link": "#"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World",
+			"link": "#"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World",
+			"link": "#"
+		},
+		{
+			"image": "./img/000000.png",
+			"price": 99,
+			"desc": "Filler-text Here",
+			"loc": "Somewhere, World",
+			"link": "#"
+		}
+	]
+}

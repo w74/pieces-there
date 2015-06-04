@@ -1,0 +1,183 @@
+!!!5
+%html
+	%head
+		%title Pieces of There |
+		%link{:rel=>"icon", :href=>"./favicon.ico", :type=>"image/icon"}
+		%link{:rel=>"shortcut icon", :href=>"./favicon.ico", :type=>"image/icon"}
+
+		%link{:rel=>"stylesheet", :href=>"./css/bootstrap.min.css"}
+		%link{:rel=>"stylesheet", :href=>"./css/template.css"}
+
+	%body
+		%header
+			%nav.navbar.navbar-static-top
+				.container-fluid
+					.row.nav
+						.col-sm-4.col-xs-6
+							%a.navbar-brand(href="#")
+								%img(alt="Pieces of There" src="./img/_logo.png")
+						.col-sm-4.col-xs-6
+							%input.form-control(type="text" name="search" placeholder="Search")
+						.col-sm-4.hidden-xs
+							.row
+								.col-sm-6.col-sm-offset-1
+									%a(href="#") Your Account
+								.col-sm-5
+									%a(href="#") Sign In
+							.row
+								.col-sm-11.col-sm-offset-1
+									%span.glyphicon.glyphicon-shopping-cart(aria-hidden="true")
+									%a(href="#") 0 items in your cart
+			%nav.sub-nav
+				%ul.nav.nav-pills
+					%li.dropdown(role="presentation")
+						%a.dropdown-toggle(data-toggle="dropdown" href="#" role="button" aria-expanded="false")
+							Sample Text
+							%span.caret
+						%ul.dropdown-menu(role="menu")
+							%li
+								%a(href="#") Sample Text
+							%li
+								%a(href="#") Sample Text
+					%li
+						%a(href="#") Trending
+					%li
+						%a(href="#") New Items
+					%li
+						%a(href="#") Best Gifts
+
+		%section.jumbotron
+			.container-fluid
+				%figure
+					%img.img-responsive(src="...")
+					%figcaption
+						%img(src="")
+						%button.btn(href="#" role="button") Start Shopping
+			.container-fluid
+				%nav.sub-nav
+					%ul.nav.nav-pills
+						%li
+							%a 
+								%strong Popular
+						%li
+							%a(href="#") City1
+						%li
+							%a(href="#") City2
+						%li
+							%a(href="#") City3
+						%li
+							%a(href="#") City4
+						%li
+							%a(href="#") City5
+						%li
+							%a(href="#") City6
+						%li
+							%a(href="#") City7
+
+		%section.panel#idName
+			.panel-heading
+				%h4.panel-title Panel Title
+				.sort
+					%h4.panel-title Sort By:
+					%select
+						%option(value="...") Option 1
+						%option(value="...") Option 2
+			.panel-body
+			%button.btn Show More
+
+		-# Item details panel
+		%section.panel#item
+			.panel-heading
+				%ol.panel-title.breadcrumb
+					%li
+						%a(href="#") Locations
+					%li.active City
+				%hr
+			.panel-body
+				.container-fluid
+					.row
+						.col-sm-5.col-xs-12
+							.img(src="...")
+						.col-sm-6.col-sm-offset-1.col-xs-12
+							.tile-info
+								%p 
+									%strong Item Name
+								%p Vendor
+							%h4 $Price
+							%div(role="tabpanel")
+								%ul.nav.nav-tabs(role="tablist")
+									%li.active(role="presentation")
+										%a(href="#desc" aria-controls="desc" role="tab" data-toggle="tab") Description
+									%li(role="presentation")
+										%a(href="#vend" aria-controls="vend" role="tab" data-toggle="tab") Vendor Info
+								.tab-content
+									#desc.tab-pane.fade.in.active(role="tabpanel")
+										%p
+									#vend.tab-pane.fade.in(role="tabpanel")
+										%p
+
+		%section.cta
+			.container-fluid
+				%figure
+					%img(src="...")
+					%figcaption
+						%h1 City
+						%h2 Tag Line
+						%a(href="#") See authentic products
+
+		%section.panel#locations
+			.panel-heading
+				%h4.panel-title Panel Title
+			.panel-body
+
+		%footer.hidden-xs
+			.container-fluid
+				.row
+					.col-sm-3
+						%h4 Pieces of There
+						%a(href="#") About Us
+						%a(href="#") Product Info
+						%a(href="#") Terms of Use
+					.col-sm-3
+						%h4 Contact Us
+						%a(href="#") Instant Chat
+						%a info@piecesofthere.com
+						%a(href="#") Suggest a Product
+					.col-sm-3
+						%h4 Partnership Program
+						%a(href="#") See Our Partners
+						%a(href="#") Partner with Us
+					.col-sm-3
+						%a(href="#")
+							%img(src="...")
+						%a(href="#")
+							%img(src="...")
+						%a(href="#")
+							%img(src="...")
+			%h5 &copy; 2014 Pieces of There, Inc. All rights reserved.
+
+		%footer.visible-xs-block
+			.container-fluid
+				.row
+					.col-xs-4
+						%a(href="#") About Us
+					.col-xs-4
+						%a info@piecesofthere.com
+					.col-xs-4
+						%a(href="#") Partner with Us
+			.container-fluid
+				.row
+					.col-xs-12
+						%a(href="#")
+							%img(src="...")
+						%a(href="#")
+							%img(src="...")
+						%a(href="#")
+							%img(src="...")
+			%h5 &copy; 2014 Pieces of There, Inc. All rights reserved.
+
+	-# Scripts
+	%script{:src=>"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
+	%script{:src=>"./js/bootstrap.min.js"}
+	%script{:src=>"https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js"}
+	%script{:src=>"./js/tile.hbs.js"}

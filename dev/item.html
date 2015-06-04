@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Birmingham | Pieces of There</title>
+
+    <link href='./favicon.ico' rel='icon' type='image/icon'>
+    <link href='./favicon.ico' rel='shortcut icon' type='image/icon'>
+    <link href='./css/bootstrap.min.css' rel='stylesheet'>
+    <link href='./css/template.css' rel='stylesheet'>
+
+    <style>
+      .tile-info p:last-child:before{
+        content: url(./img/_store.svg);
+        display: inline-block;
+        vertical-align: text-top;
+        margin-right: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class='navbar navbar-static-top'>
+        <div class='container-fluid'>
+          <div class='row nav'>
+            <div class='col-sm-4 col-xs-6'>
+              <a class='navbar-brand' href='#'>
+                <img alt='Pieces of There' src='./img/_logo.png'>
+              </a>
+            </div>
+            <div class='col-sm-4 col-xs-6'>
+              <input class='form-control' name='search' placeholder='Search' type='text'>
+            </div>
+            <div class='col-sm-4 hidden-xs'>
+              <div class='row'>
+                <div class='col-sm-offset-1 col-sm-6'>
+                  <a href='#'>Your account</a>
+                </div>
+                <div class='col-sm-5'>
+                  <a href='#'>Sign in</a>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-sm-offset-1 col-sm-11'>
+                  <span aria-hidden='true' class='glyphicon glyphicon-shopping-cart'></span>
+                  <a href='#'>0 items in your cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class='sub-nav'>
+        <ul class='nav nav-pills'>
+          <li class='dropdown' role='presentation'>
+            <a aria-expanded='false' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+              Location
+              <span class='caret'></span>
+            </a>
+            <ul class='dropdown-menu' role='menu'>
+              <li><a href='#'>Los Angeles</a></li>
+              <li><a href='#'>Chicago</a></li>
+              <li><a href='#'>New York</a></li>
+              <li><a href='#'>Atlanta</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href='#'>Trending</a>
+          </li>
+          <li>
+            <a href='#'>New Items</a>
+          </li>
+          <li>
+            <a href='#'>Best Gifts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class='jumbotron item'>
+      <div class='container-fluid'>
+        <figure>
+          <img class='img-responsive' src='./img/jumbo-birmingham.jpg'>
+        </figure>
+      </div>
+    </section>
+
+    <section class='panel' id="item">
+      <div class='panel-heading'>
+        <ol class='panel-title breadcrumb'>
+          <li><a href="#">Locations</a></li>
+          <li class="active">Birmingham</li>
+        </ol>
+        <hr>
+      </div>
+      <div class='panel-body'>
+        <div class='container-fluid'>
+          <div class='row'>
+            <div class='col-sm-5 col-xs-12'>
+              <img src="./img/000365.png">
+            </div>
+
+            <div class='col-sm-6 col-sm-offset-1 col-xs-12'>
+              <div class='tile-info'>
+                <p><strong>Moonshine hot sauce</strong></p>
+                <p>Fairhope Favorites</p>
+              </div>
+              <h4>$7</h4>
+              <div role="tabpanel">
+                <ul class='nav nav-tabs' role='tablist'>
+                  <li role='presentation' class='active'><a href="#desc" aria-controls="desc" role="tab" data-toggle="tab">Description</a></li>
+                  <li role='presentation'><a href="#vend" aria-controls="vend" role="tab" data-toggle="tab">Vendor Info</a></li>
+                </ul>
+
+      <div class='tab-content'>
+        <div role="tabpanel" class="tab-pane fade in active" id="desc">
+          <p>Southern hot sauce in a moonshine jub. Classic Alabama style hot sauce to heat up your BBQ ribs and more.
+          <br><br>
+          - Homemade flavor<br>
+          - 32 fl oz<br>
+          - Glass jug</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade in" id="vend">
+          <p>Fairhope Favorite's is a famous BBQ stop in Birmingham known for it's fantastic briskets and ribs. Located on the corner of Main St. and Wilhem Dr., it's the number one choice for anyone craving authentic southern BBQ.</p>
+        </div>
+        <hr>
+        <div class='row'>
+          <select class="col-xs-2">
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+          </select>
+          <button class='btn add-cart col-xs-offset-1 col-xs-4'>Add to Cart</button>
+          <button class='btn add-wish col-xs-offset-1 col-xs-4'>Wishlist</button>
+        </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='panel'>
+      <div class='panel-heading'>
+        <h4 class='panel-title'>More from Birmingham</h4>
+        <hr>
+      </div>
+      <div class='panel-body' id="birmingham">
+      </div>
+      <button class='btn' data-link="birmingham">Show More</button>
+    </section>
+
+    <section class='panel'>
+      <div class='panel-heading'>
+        <h4 class='panel-title'>Other Locations</h4>
+        <hr>
+      </div>
+      <div class='panel-body' id='locations'>
+        <?php include 'templates/locations.php' ?>
+      </div>
+    </section>
+
+    <footer class='hidden-xs'>
+      <div class='container-fluid'>
+        <div class='row'>
+          <div class='col-sm-3'>
+            <h4>Pieces of There</h4>
+            <a href='#'>About Us</a>
+            <a href='#'>Product Info</a>
+            <a href='#'>Terms of Use</a>
+          </div>
+          <div class='col-sm-3'>
+            <h4>Contact Us</h4>
+            <a href='#'>Instant Chat</a>
+            <a>info@piecesofthere.com</a>
+            <a href='#'>Suggest a Product</a>
+          </div>
+          <div class='col-sm-3'>
+            <h4>Partnership Program</h4>
+            <a href='#'>See Our Partners</a>
+            <a href='#'>Partner with Us</a>
+          </div>
+          <div class="vr"></div>
+          <div class='col-sm-3'>
+            <a href='#'><img src='./img/_facebook.svg'></a>
+            <a href='#'><img src='./img/_twitter.svg'></a>
+            <a href='#'><img src='./img/_instagram.svg'></a>
+          </div>
+        </div>
+      </div>
+      <h5>&copy; 2014 Pieces of There, Inc. All rights reserved.</h5>
+    </footer>
+
+    <footer class='visible-xs-block'>
+      <div class='container-fluid'>
+        <div class='row'>
+          <div class='col-xs-12'>
+            <a href='#'>
+              <img src='./img/_facebook.svg'>
+            </a>
+            <a href='#'>
+              <img src='./img/_twitter.svg'>
+            </a>
+            <a href='#'>
+              <img src='./img/_instagram.svg'>
+            </a>
+          </div>
+        </div>
+      </div>
+      <h5>&copy; 2014 Pieces of There, Inc. All rights reserved.</h5>
+    </footer>
+  </body>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+  <script src='./js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.runtime.min.js'></script>
+  <script src='./js/tile.hbs.js'></script>
+  <script src='./js/masonry.js'></script>
+  <script src='./js/city.js'></script>
+</html>
